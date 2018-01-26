@@ -1,0 +1,48 @@
+html,
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.animals-container,
+.buttons{
+	position: relative;
+	top: 10%;
+	/*border: 2px solid red;*/
+}
+
+.row{
+	height: 300px;
+}
+
+.animal{
+	/*background-color: black;*/
+	background-image: url(http://www.clker.com/cliparts/E/e/0/o/o/f/cage-hi.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 90%;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding: 0;
+}
+
+.last-animal{
+	margin-right: 5px;
+}
+
+.image{
+	width: 100%;
+	height: 100%;
+}
+
+.hide{
+	display: none;
+}
+
+.index{
+	color: red;
+	position: relative;
+	top: 25%;
+	text-align: center;
+	font-size: 100px;
+}
